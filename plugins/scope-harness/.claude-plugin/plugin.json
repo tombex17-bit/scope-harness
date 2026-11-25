@@ -1,0 +1,26 @@
+{
+  "name": "scope-harness",
+  "displayName": "Scope Harness",
+  "version": "0.1.0",
+  "description": "Turns vague requests into a scoped task brief with done criteria, a budget, and a recommended model and effort level.",
+  "author": { "name": "Tomasz" },
+  "license": "MIT",
+  "keywords": ["prompting", "scoping", "cost", "routing"],
+  "userConfig": {
+    "mode": {
+      "type": "string",
+      "title": "Clarification mode",
+      "description": "ask: ask up to 3 questions when a key gap remains. infer: never ask, list assumptions instead. auto: ask only for broad or high-stakes requests.",
+      "options": ["auto", "ask", "infer"],
+      "default": "auto"
+    },
+    "threshold": {
+      "type": "number",
+      "title": "Vagueness threshold",
+      "description": "Score from 0 to 10 at which the hook suggests sharpening. Higher means fewer nudges.",
+      "min": 0,
+      "max": 10,
+      "default": 5
+    }
+  }
+}

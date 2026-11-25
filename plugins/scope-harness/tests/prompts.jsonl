@@ -1,0 +1,20 @@
+{"prompt": "make it better", "vague": true}
+{"prompt": "help me with my project", "vague": true}
+{"prompt": "what's the best way to organize things?", "vague": true}
+{"prompt": "improve performance", "vague": true}
+{"prompt": "fix it", "vague": true}
+{"prompt": "can you look into the auth stuff and clean it up", "vague": true}
+{"prompt": "I want to build something with AI, any ideas?", "vague": true}
+{"prompt": "refactor the codebase", "vague": true}
+{"prompt": "how should I structure this", "vague": true}
+{"prompt": "optimize my workflow overall", "vague": true}
+{"prompt": "Rename `getUser` to `fetchUser` in src/api/users.ts and update its callers.", "vague": false}
+{"prompt": "Add a unit test for parse_date() in utils/dates.py that covers leap years; it should pass with pytest.", "vague": false}
+{"prompt": "Why does tests/test_login.py fail with KeyError: 'token' after commit #482?", "vague": false}
+{"prompt": "Write a 5-bullet summary of https://example.com/rfc.md for the team email.", "vague": false}
+{"prompt": "Change the timeout in config/settings.yaml from 30 to 60 seconds.", "vague": false}
+{"prompt": "Create a SQL query that returns the top 10 customers by revenue in 2025 from the orders table.", "vague": false}
+{"prompt": "In README.md, replace the install section with the pip install command only.", "vague": false}
+{"prompt": "The /health endpoint in server/app.py returns 500 when Redis is down; make it return 503 instead.", "vague": false}
+{"prompt": "Convert scripts/build.sh to a Makefile with build, test and clean targets.", "vague": false}
+{"prompt": "Explain what the useDebounce hook in src/hooks/useDebounce.ts does, in under 100 words.", "vague": false}

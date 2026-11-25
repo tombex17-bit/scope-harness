@@ -1,0 +1,15 @@
+{
+  "name": "scope-harness-marketplace",
+  "owner": { "name": "Tomasz" },
+  "description": "Plugins for getting better results per token from Claude Code.",
+  "plugins": [
+    {
+      "name": "scope-harness",
+      "source": "./plugins/scope-harness",
+      "description": "Turns vague requests into a scoped task brief with a model and effort recommendation.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "tags": ["prompting", "cost", "scoping"]
+    }
+  ]
+}
